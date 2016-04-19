@@ -1,0 +1,26 @@
+ul
+  li = link_to 'Admin View', root_path(is_admin: 1)
+  li = link_to 'Normal View', root_path
+
+h1 = cms('home.index.title', 'Default Title')
+
+hr
+
+= cms('home.index.intro-text')
+  h1 A title
+  p Lorem ipsum dolor sit amet, ad facete comprehensam duo. Sit ei option nominati temporibus. Sea meis ancillae at,
+    qui everti intellegebat ei, ad vim diam brute aperiam. Modo commune accumsan ad per. Soleat verterem tacimates quo
+    ad, nostrum ullamcorper pri te, paulo eruditi placerat no vix.
+  p Dolores torquatos has in. Quod nullam interesset cum cu, vel ut dico fabulas, vis no ponderum delicata. Doctus
+    deserunt salutandi has ad, cum in illum splendide. Pri quas tantas cetero id, semper senserit sed id.
+
+hr
+
+h1 = cms('home.index.another-title')
+
+hr
+
+= cms('home.index.another-intro-text')
+  h1 = t('.last-title')
+  p = t('.paragraph-1')
+  p = t('.paragraph-2')

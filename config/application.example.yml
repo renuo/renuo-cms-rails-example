@@ -1,0 +1,3 @@
+RENUO_CMS_API_HOST: 'http://renuo-cms-api.dev:3002'
+RENUO_CMS_API_KEY: 'someKeys'
+RENUO_CMS_PRIVATE_API_KEY: 'areHidden'

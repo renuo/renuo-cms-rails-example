@@ -20,4 +20,9 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  home:
+    index:
+      another-title: Hello another title
+      last-title: Last Title
+      paragraph-1: Some text
+      paragraph-2: More text
